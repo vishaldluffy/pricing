@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Compare Fieldnote project planning plans and explore monthly and yearly billing.">
+<title>Pricing | Fieldnote</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body><header class="top"><div class="brand"><span aria-hidden="true">◩</span> Fieldnote</div></header>
+<main><section aria-labelledby="pricing-title"><div class="intro">
+<h1 id="pricing-title">Plans for every workspace</h1>
+<p>Organize projects, share progress, and keep work in one place.</p>
+<div class="billing"><div class="switch" role="group" aria-label="Billing period">
+<button type="button" data-cycle="monthly" class="active" aria-pressed="true">Monthly</button>
+<button type="button" data-cycle="yearly" aria-pressed="false">Yearly</button>
+</div><span class="saving">Save about 20% yearly</span></div></div>
+<div class="plans">
+<article class="card" aria-labelledby="starter">
+
+<h2 id="starter">Starter</h2><p class="description">For personal projects</p>
+<p class="cost"><span class="price" data-monthly="12" data-yearly="115">$12</span><span class="unit">per month</span></p>
+<button class="choose" type="button" data-plan="Starter">Choose Starter</button>
+<ul><li>3 active projects</li><li>Personal workspace</li><li>5 GB file storage</li><li>Basic templates</li><li>Email support</li></ul>
+</article>
+<article class="card popular" aria-labelledby="pro">
+<span class="ribbon">Popular</span>
+<h2 id="pro">Pro</h2><p class="description">For independent professionals</p>
+<p class="cost"><span class="price" data-monthly="24" data-yearly="230">$24</span><span class="unit">per month</span></p>
+<button class="choose" type="button" data-plan="Pro">Choose Pro</button>
+<ul><li>20 active projects</li><li>Client sharing</li><li>50 GB file storage</li><li>Custom templates</li><li>Priority email support</li></ul>
+</article>
+<article class="card" aria-labelledby="team">
+<span class="ribbon">Best Value</span>
+<h2 id="team">Team</h2><p class="description">For small teams</p>
+<p class="cost"><span class="price" data-monthly="48" data-yearly="460">$48</span><span class="unit">per month</span></p>
+<button class="choose" type="button" data-plan="Team">Choose Team</button>
+<ul><li>Unlimited projects</li><li>5 team seats</li><li>200 GB file storage</li><li>Roles and permissions</li><li>Priority chat support</li></ul>
+</article></div>
+<p class="fine">Prices in USD. Fieldnote is a fictional product.</p>
+<p class="sr-only" id="billing-status" role="status"></p>
+</section></main>
+<dialog aria-labelledby="selection-title"><form method="dialog"><h2 id="selection-title"></h2><p id="selection-price"></p><p>This is a pricing demo. No payment is collected.</p><button class="choose" autofocus>Close</button></form></dialog>
+</body></html>
